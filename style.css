@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  height: 60px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #c0392b;
+  color: #ecf0f1
+}
+
+h1 span {
+  letter-spacing: 10px;
+}
+
+h1 span b:nth-child(1) {
+ color: #f1c40f
+}
+
+h1 span b:nth-child(2) {
+ color: #3498db 
+}
+
+h1 span b:nth-child(3) {
+ color: #ff008f 
+}
+
+section {
+  display: flex;
+}
