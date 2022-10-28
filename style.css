@@ -30,33 +30,50 @@ h1 span b:nth-child(3) {
  color: #ff008f 
 }
 
-main {
+footer {
   max-width: 900px;
   margin: 0 auto
 }
 
-main section {
+footer section {
   display: flex;
 }
 
-main section div {
+footer section div {
   flex-basis: 60px;
   flex-grow: 1;
   height: 60px;
+  padding-top: 5px;
+  padding-left: 5px;
   border: 1px solid black
 }
 
-main .key-width1 {
+footer section span {
+  display: block
+}
+
+.key-width1, .key-width2, .key-width3 {
+  padding: 20px 5px
+}
+
+.key-width1 {
   flex-basis: 100px
 }
 
-main .key-width2 {
+.key-width2 {
   flex-basis: 120px
 }
 
-main .key-width3 {
+.key-width3 {
  flex-basis: 150px;
 }
 
+#enter-key {
+ text-align: right
+}
+
+#shift-right-key {
+  text-align: right;
+}
 
 
